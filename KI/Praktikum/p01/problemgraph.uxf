@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>210</x>
+      <y>200</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 3
+Elben: 3
+Pferd
+--
+Rechts
+Orks: 0
+Elben: 0
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>360</x>
+      <y>200</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 2
+Elben: 2
+--
+Rechts
+Orks: 1
+Elben: 1
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>200</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 2
+Elben: 3
+Pferd
+--
+Rechts
+Orks: 1
+Elben: 0
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>210</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OE</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>210</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+E</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>210</x>
+      <y>380</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 1
+Elben: 3
+--
+Rechts
+Orks: 2
+Elben: 0
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>320</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OO</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>660</x>
+      <y>200</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 0
+Elben: 3
+--
+Rechts
+Orks: 3
+Elben: 0
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>210</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OO</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>810</x>
+      <y>200</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 1
+Elben: 3
+Pferd
+--
+Rechts
+Orks: 2
+Elben: 0
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>210</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+O</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>210</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+EE</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>960</x>
+      <y>200</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 1
+Elben: 1
+--
+Rechts
+Orks: 2
+Elben: 2
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>320</y>
+      <w>280</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+O</panel_attributes>
+    <additional_attributes>250.0;10.0;250.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>210</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+O</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>60</x>
+      <y>200</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 2
+Elben: 3
+--
+Rechts
+Orks: 1
+Elben: 0
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>960</x>
+      <y>380</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 2
+Elben: 2
+Pferd
+--
+Rechts
+Orks: 1
+Elben: 1
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>320</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OE</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>810</x>
+      <y>380</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 2
+Elben: 0
+--
+Rechts
+Orks: 1
+Elben: 3
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>390</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+EE</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>660</x>
+      <y>380</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 3
+Elben: 0
+Pferd
+--
+Rechts
+Orks: 0
+Elben: 3
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>390</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+O</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>500</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OO</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>660</x>
+      <y>560</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 1
+Elben: 0
+--
+Rechts
+Orks: 2
+Elben: 3
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>810</x>
+      <y>560</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 2
+Elben: 0
+Pferd
+--
+Rechts
+Orks: 1
+Elben: 3
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>570</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+O</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>960</x>
+      <y>560</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 0
+Elben: 0
+--
+Rechts
+Orks: 3
+Elben: 3
+Pferd
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>570</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OO</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>980</x>
+      <y>750</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 1
+Elben: 1
+Pferd
+--
+Rechts
+Orks: 2
+Elben: 2
+
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1010</x>
+      <y>680</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OE</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>240</x>
+      <y>140</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1090</x>
+      <y>580</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=flow_final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>150</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>580</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>660</x>
+      <y>750</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Links
+Orks: 1
+Elben: 1
+Pferd
+--
+Rechts
+Orks: 2
+Elben: 2
+
+valign=top
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>680</y>
+      <w>40</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+E</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>680</y>
+      <w>270</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+OE</panel_attributes>
+    <additional_attributes>10.0;100.0;70.0;100.0;70.0;50.0;250.0;50.0;250.0;10.0</additional_attributes>
+  </element>
+</diagram>
