@@ -487,12 +487,12 @@ OO</panel_attributes>
     </coordinates>
     <panel_attributes>Links
 Orks: 1
-Elben: 1
+Elben: 0
 Pferd
 --
 Rechts
 Orks: 2
-Elben: 2
+Elben: 3
 
 
 valign=top
@@ -504,11 +504,11 @@ halign=left</panel_attributes>
     <coordinates>
       <x>1010</x>
       <y>680</y>
-      <w>50</w>
+      <w>40</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-&gt;
-OE</panel_attributes>
+O</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
