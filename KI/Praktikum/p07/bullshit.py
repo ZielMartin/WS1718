@@ -9,50 +9,48 @@ training_data = [
 
 eta = .5
 
-w = [0, 0, 0]
+w = numpy.array([0.0, 0.0, 0.0])
 
-iterations = 2
+iterations = 20
 
 table = []
 
 def pretty_print(content):
-    header = ["w1", "w2", "theta", "x1", "x2", "k", "sum", "vorhersage", "änderung"]
+    header = ["w1", "w2", "-theta", "x1", "x2", "k", "sum", "vorhersage", "änderung"]
     row_format ="{:>20}" * (len(header) )
     print(row_format.format(*header))
     for row in content:
         print(row_format.format(*row))
 
-def sumFunc(inputs):
-    s = 0
-    for i in range(len(inputs)):
-        s += inputs[i] * w[i]
-    s -= w[len(inputs)]
-    return s
+def myDot(inp):
+    x = numpy.append([1], inp)
 
-myDot = lambda inp: numpy.dot(inp, w[1:]) * w[0]
+    print("<",x,",",w,"> = ", numpy.dot(x,w))
+
+    return numpy.dot(x, w)
 
 def sign(_sign):
-    if _sign <= 0: return False
-    return True
+    if _sign < 0: return 0
+    return 1
 
 def aenderung(u):
-    if u > 0.0:
-        return "+"
-    elif u < 0.0:
-        return "-"
-    else:
-        return "="
+    if u > 0.0: return "+"
+    elif u < 0.0: return "-"
+    else: return "="
 
-
-
-for iteration in range(iterations):
+repeat = True
+while(repeat):
+    repeat = False
     table.append(["_____"] * 9)
     for inp, k in training_data:
-        activation = myDot(inp)
-        predicted = sign(activation)
+        dot = myDot(inp)
+        predicted = sign(dot)
         update = eta * (k - predicted)
+        if update != 0.0:
+            repeat = True
         w[1:] += update * inp
         w[0] += update
-        table.append([w[0], w[1], w[2], inp[0], inp[1], k, sumFunc(inp), predicted, aenderung(update)])
+
+        table.append([w[1], w[2], w[0], inp[0], inp[1], k, dot, predicted, aenderung(update)])
 
 pretty_print(table)

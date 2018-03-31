@@ -224,7 +224,7 @@ class Main:
 
         self.myTurn = True
         self.player1 = Player(self.canvas)
-        self.player2 = MinMax("o")
+        self.player2 = MinMax2("o")
         self.board = Board()
 
 
